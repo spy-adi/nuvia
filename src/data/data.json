@@ -253,5 +253,105 @@
         "tags": ["#CommunityLove", "#NuviaGlowUps"]
       }
     ]
+  },
+  "Careers": {
+    "welcomeMessage": "Join Our Team",
+    "description": "We’re always looking for passionate people to help us glow together.",
+    "openings": [
+      {
+        "id": 1,
+        "title": "Sales Management Trainee – Skincare Division",
+        "location": "Mumbai / Delhi / Bangalore / Chennai (Flexible, PAN-India)",
+        "company": "Nuvia – “Glow Like You Mean It”",
+        "experience": "0–1 years (Fresh Tier-1 MBA Graduates)",
+        "salary": "₹16–18 LPA (CTC, including variable pay and joining bonus)",
+        "description": [
+          "Nuvia is seeking high-potential graduates from top-tier MBA programs to join as Sales Management Trainees in our dynamic skincare division. This is a launchpad for a future leadership role, offering exposure to direct sales, trade marketing, and distribution management in a fast-paced, consumer-first industry. You’ll drive market penetration, collaborate with cross-functional teams, and build strong channel relationships to scale Nuvia’s product presence across India."
+        ],
+        "responsibilities": [
+          "Lead primary and secondary sales execution in assigned geography",
+          "Drive outlet expansion, retail visibility, and consumer activation initiatives",
+          "Partner with distribution teams and ensure stock availability and efficient route coverage",
+          "Analyze sales data and consumer insights to improve market share and SKU-wise performance",
+          "Coordinate with marketing teams on promotional campaigns and new product launches",
+          "Track competitor activity and suggest tactical responses",
+          "Regularly report key metrics, performance KPIs, and market intelligence"
+        ],
+        "required": [
+          "MBA (2024/2025) from Tier-1 institutes (IIMs, XLRI, FMS, SPJIMR, etc.)",
+          "Specialization in Sales & Marketing preferred",
+          "Excellent interpersonal and communication skills",
+          "Strong analytical and data interpretation capabilities",
+          "Willingness to travel and work on-ground with retailers and distributors",
+          "Passion for beauty, skincare, and consumer brands"
+        ],
+        "preferred": [
+          "Internship/project experience in FMCG, beauty, or lifestyle industry",
+          "Demonstrated leadership in B-school clubs, events, or field assignments",
+          "Familiarity with basic sales dashboards or CRM tools (e.g., Salesforce, Power BI)"
+        ],
+        "offer": [
+          "Fast-track career growth with mentorship from industry leaders",
+          "Exposure to end-to-end business cycles in a growing D2C & retail ecosystem",
+          "Work with a young, mission-driven brand disrupting the beauty segment",
+          "Structured L&D programs and potential international opportunities"
+        ],
+        "howToApply": "Mail your CV to careers@nuvia.in with subject line: Application – Sales Management Trainee | [Your Name]. Campus placement cell nominations via TPO also accepted.",
+        "competencies": [
+          {
+            "name": "Sales Acumen",
+            "description": "Understands channel mechanics, consumer behavior, and pricing strategy"
+          },
+          {
+            "name": "Execution Orientation",
+            "description": "Gets things done in fast-paced, target-driven environments"
+          },
+          {
+            "name": "Analytical Thinking",
+            "description": "Leverages data to solve problems and make decisions"
+          },
+          {
+            "name": "Communication & Influence",
+            "description": "Builds relationships with stakeholders from ground staff to top retailers"
+          },
+          {
+            "name": "Adaptability",
+            "description": "Thrives in ambiguity, startup-like agility, and regional deployment"
+          }
+        ],
+        "evaluation": [
+          {
+            "criteria": "Academic Pedigree",
+            "weight": "10%",
+            "indicator": "Tier of MBA school, UG background"
+          },
+          {
+            "criteria": "Business Acumen",
+            "weight": "20%",
+            "indicator": "Internship/live project exposure, brand understanding"
+          },
+          {
+            "criteria": "Role Fit & Motivation",
+            "weight": "20%",
+            "indicator": "Passion for FMCG/beauty, clarity on sales role"
+          },
+          {
+            "criteria": "Communication Skills",
+            "weight": "20%",
+            "indicator": "Clarity, persuasion, storytelling"
+          },
+          {
+            "criteria": "Analytical/Problem Solving",
+            "weight": "20%",
+            "indicator": "Case study round or situational judgment"
+          },
+          {
+            "criteria": "Culture & Value Alignment",
+            "weight": "10%",
+            "indicator": "Alignment with Nuvia’s purpose and consumer-first brand ethos"
+          }
+        ]
+      }
+    ]
   }
 }

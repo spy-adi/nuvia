@@ -34,7 +34,16 @@ const GlowJournal = () => {
   };
 
   return (
-    <div style={{ padding: "100px", fontFamily: "Arial, sans-serif" }}>
+    <div
+      style={{
+        padding: "100px",
+        fontFamily: "Arial, sans-serif",
+        background: "url(../img/glowJournal.png)",
+        backgroundColor: "#e5e5e5",
+        backgroundSize: "cover",
+        height: "100%",
+      }}
+    >
       <h1 style={{ fontSize: "32px" }}>{glowData.intro.title}</h1>
       <p style={{ fontSize: "18px", fontWeight: "bold", marginBottom: "10px" }}>
         {glowData.intro.subtitle}
@@ -82,13 +91,19 @@ const GlowJournal = () => {
           marginTop: "40px",
           borderTop: "1px solid #ddd",
           paddingTop: "30px",
+          width: "33%",
         }}
       >
-        <h3>📬 Want glow in your inbox?</h3>
+        <h2 style={{ fontSize: "22px", marginBottom: "15px" }}>
+          📬 Want glow in your inbox?
+        </h2>
         <p style={{ marginBottom: "10px" }}>
-          Subscribe to the Glow Journal and get exclusive blog drops, new
-          product launches, and skincare tips straight to your inbox — no spam,
-          just skin wisdom.
+          <b>
+            {" "}
+            Subscribe to the Glow Journal and get exclusive blog drops, new
+            product launches, and skincare tips straight to your inbox — no
+            spam, just skin wisdom.
+          </b>
         </p>
         <input
           type="email"

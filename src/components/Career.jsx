@@ -1,29 +1,84 @@
-// src/components/Career.js
 import React from "react";
+import data from "../../src/data/data.json";
+import { useHistory } from "react-router-dom";
 
-const Career = () => {
+const Careers = () => {
+  const history = useHistory();
+  const careerData = data?.Careers;
+
+  const containerStyle = {
+    padding: "100px 20px",
+    fontFamily: "sans-serif",
+    textAlign: "center",
+    backgroundColor: "#f7fff8",
+    minHeight: "100vh",
+    background: "url(../img/career.png)",
+    backgroundColor: "#e5e5e5",
+    backgroundSize: "cover",
+    height: "100%",
+  };
+
+  const titleStyle = {
+    fontSize: "32px",
+    fontWeight: "bold",
+    marginBottom: "10px",
+    color: "#004d40",
+  };
+
+  const descriptionStyle = {
+    fontSize: "18px",
+    marginBottom: "30px",
+    color: "#555",
+  };
+
+  const chipContainer = {
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    gap: "16px",
+  };
+
+  const chipStyle = {
+    padding: "14px 22px",
+    backgroundColor: "#c8e6c9",
+    borderRadius: "24px",
+    cursor: "pointer",
+    fontSize: "16px",
+    fontWeight: "500",
+    color: "#1b5e20",
+    border: "1px solid #81c784",
+    transition: "background-color 0.3s ease",
+  };
+
+  const handleJobClick = (job) => {
+    const jobId = job.id;
+    history.push(`/career/${jobId}`);
+  };
+
   return (
-    <div className="container" style={{ marginTop: "100px" }}>
-      <h2>Sales Management Trainee – Skincare Division</h2>
-      <p>
-        <strong>Location:</strong> Mumbai / Delhi / Bangalore / Chennai
-        (Flexible, PAN-India)
-      </p>
-      <p>
-        <strong>Experience:</strong> 0–1 years (Fresh Tier-1 MBA Graduates)
-      </p>
-      <p>
-        <strong>Salary:</strong> ₹16–18 LPA (CTC, including variable pay and
-        joining bonus)
-      </p>
-      <p>
-        Nuvia is seeking high-potential graduates from top-tier MBA programs to
-        join as Sales Management Trainees in our dynamic skincare division. This
-        is a launchpad for a future leadership role...
-      </p>
-      {/* Add rest of the content as needed */}
+    <div style={containerStyle}>
+      <h1 style={titleStyle}>{careerData?.welcomeMessage}</h1>
+      <p style={descriptionStyle}>{careerData?.description}</p>
+
+      <div style={chipContainer}>
+        {careerData?.openings?.map((job) => (
+          <div
+            key={job.id}
+            style={chipStyle}
+            onClick={() => handleJobClick(job)}
+            onMouseOver={(e) =>
+              (e.currentTarget.style.backgroundColor = "#a5d6a7")
+            }
+            onMouseOut={(e) =>
+              (e.currentTarget.style.backgroundColor = "#c8e6c9")
+            }
+          >
+            {job.title} – {job.location}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
 
-export default Career;
+export default Careers;
