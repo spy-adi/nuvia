@@ -11,7 +11,16 @@ export const TeamMember = ({ d, limit = 100 }) => {
   return (
     <div className="col-md-4 col-sm-6 team">
       <div className="thumbnail">
-        <img src={d.img} alt="..." className="team-img" />
+        <img
+          src={d.img}
+          alt={d.name}
+          className="team-img"
+          style={{
+            width: "100%",
+            height: "250px", // set desired height
+            objectFit: "contain",
+          }}
+        />
         <div className="caption">
           <h4>{d.name}</h4>
           <p>{d.job}</p>

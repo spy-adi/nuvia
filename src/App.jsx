@@ -1,14 +1,10 @@
-import React, { useState, useEffect } from "react";
+// src/App.js
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { Features } from "./components/features";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
-import JsonData from "./data/data.json";
+import Home from "./components/Home";
+import Career from "./components/Career";
+import GlowJournal from "./components/GlowJournal";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
@@ -18,23 +14,15 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
-
   return (
-    <div>
+    <Router>
       <Navigation />
-      <Header data={landingPageData.Header} />
-      {/* <Features data={landingPageData.Features} /> */}
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/career" component={Career} />
+        <Route path="/glow-journal" component={GlowJournal} />
+      </Switch>
+    </Router>
   );
 };
 

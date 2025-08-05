@@ -136,37 +136,37 @@
 
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/01_1.jpg",
       "name": "Keerthana P S",
       "job": "Founder & CEO",
       "description": "With a background in dermatology and a heart full of passion for clean beauty, Ananya started Nuvia to redefine skincare that’s inclusive, gentle, and effective. She’s the visionary behind our philosophy, “Glow like you mean it.”"
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/team/02_1.jpg",
       "name": "Freni Manoj",
       "job": "Head of Product Innovation",
       "description": "Freni is our ingredient guru. Whether it's sourcing botanical actives or formulating soothing serums, she ensures every product is as kind to your skin as it is to the planet."
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "img/team/03_1.jpg",
       "name": "Ayush Gupta",
       "job": "Brand & Community Manager",
       "description": "From managing our social buzz to building real conversations with our customers, Ayush makes sure your voice is always heard and your skincare journey is supported."
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/04_1.jpg",
       "name": "Dolly Mehta",
       "job": "Creative Director",
       "description": "Dolly is the visual soul of Nuvia. She leads all things design, from packaging to campaigns, bringing softness, minimalism, and beauty into every frame."
     },
     {
-      "img": "img/team/05.jpg",
+      "img": "img/team/05_1.jpg",
       "name": "Fathima Neslin",
       "job": "Operations & Logistics Lead",
       "description": "Behind every on-time, beautifully packed Nuvia order is Neslin. She keeps things moving, sustainably and smoothly, from the warehouse to your doorstep."
     },
     {
-      "img": "img/team/06.jpg",
+      "img": "img/team/06_1.jpg",
       "name": "Kaushiki Pandey",
       "job": "Marketing & Growth Strategist",
       "description": "Kaushiki makes sure Nuvia finds the right audience and grows with them. From campaign planning to influencer collaborations, she’s our strategy queen."
@@ -202,5 +202,56 @@
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
-  ]
+  ],
+  "glowJournal": {
+    "intro": {
+      "title": "✨ Glow Journal",
+      "subtitle": "Welcome to your daily dose of skin wisdom.",
+      "description": "At Nuvia, we believe glowing skin is more than just good products — it’s a way of life. The Glow Journal is your go-to space for expert skincare tips, ingredient spotlights, routine hacks, and real talk about what your skin really needs."
+    },
+    "articles": [
+      {
+        "title": "The 3-Step Glow Ritual You’re Probably Doing Wrong",
+        "emoji": "🧴",
+        "content": "Toner before or after serum? Is double cleansing worth the hype? In this blog, we break down the correct order of your skincare routine — with science-backed reasons and product tips.",
+        "readTime": "4 min",
+        "tags": ["#RoutineTips", "#GlowingSkin"]
+      },
+      {
+        "title": "Ingredient Deep Dive: Niacinamide – The Calm in the Chaos",
+        "emoji": "🍵",
+        "content": "This powerhouse ingredient is more than just a trend. Learn how niacinamide works to fade dark spots, shrink pores, and keep your barrier strong — even if you’ve got oily or acne-prone skin.",
+        "readTime": "3 min",
+        "tags": ["#IngredientBreakdown", "#Niacinamide101"]
+      },
+      {
+        "title": "Morning vs. Night Skincare — Do You Actually Need Both?",
+        "emoji": "🌞",
+        "content": "Spoiler alert: Yes, but it’s not about more products, it’s about the right ones. We decode why your skin has different needs throughout the day and how to build minimalist AM/PM routines.",
+        "readTime": "5 min",
+        "tags": ["#SkinScience", "#AMPMRoutine"]
+      },
+      {
+        "title": "5 Common Skincare Mistakes (And How to Avoid Them)",
+        "emoji": "🛑",
+        "content": "Still using face scrub every day? Layering actives without a moisturizer? Here are five habits that may be sabotaging your glow — and what to do instead.",
+        "readTime": "4 min",
+        "tags": ["#SkincareTips", "#MistakeFreeSkin"]
+      },
+      {
+        "title": "Skin & Stress: What’s the Link?",
+        "emoji": "🧘‍♀️",
+        "content": "Ever noticed your skin breaking out before an exam or deadline? This blog explores how stress hormones impact your skin — and how to soothe both your nerves and your pores.",
+        "readTime": "3 min",
+        "tags": ["#MindSkinConnection", "#SkinPsychology"]
+      },
+      {
+        "title": "Nuvia Stories: Real Skin, Real Journeys",
+        "emoji": "📖",
+        "content": "Read honest skincare journeys from our community — from first breakouts to first glow. These stories remind us that good skin isn’t perfect skin — it’s cared-for skin.",
+        "readTime": "Varies",
+        "tags": ["#CommunityLove", "#NuviaGlowUps"]
+      }
+    ]
+  }
 }
