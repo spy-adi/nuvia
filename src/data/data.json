@@ -1,0 +1,206 @@
+{
+  "Header": {
+    "title": "Glow Like You Mean It",
+    "paragraph": "Skincare made with love, backed by nature, powered by science."
+  },
+  "About": {
+    "us": "Glow Like You Mean It",
+    "vaev": "At Nuvia, we believe that skincare is more than surface deep; it’s a daily ritual of self-love, confidence, and connection with nature. Our journey began with a single mission: to create clean, gentle, and effective skincare that celebrates real skin in all its beautiful forms. We combine ancient botanical wisdom with modern skin science to deliver products that work without compromising your values. Every serum, cleanser, or balm we craft is designed to empower you to glow from within.",
+    "whyBuild": "Our founders were frustrated with the cluttered, chemical-heavy world of skincare. So, we set out to build something different a brand that’s transparent, inclusive, and results-driven, without ever being harsh on the skin or the environment. Nuvia was born out of long hours in labs, countless ingredient trials, and a dream to make skincare simple yet soulful.",
+    "forWhom": [
+      "People who want to simplify their skincare without sacrificing performance",
+      "Beauty lovers seeking clean, cruelty-free alternatives",
+      "Anyone who believes confidence begins with care"
+    ],
+    "whatCanBeDone": [
+      "Access a Curated List of Suppliers and discover trusted Suppliers",
+      "Explore New Product Opportunities and Launch your own D2C Business",
+      "Expand your Business while saving time and effort",
+      "Stay ahead of the competition"
+    ],
+    "why": [
+      "Thoughtfully crafted formulas with clinically backed actives",
+      "Mindfully sourced botanicals and clean ingredients",
+      "Designed by skin experts, inspired by nature",
+      "Transparent labels, beautiful results"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "NUVIA",
+      "largeImage": "img/portfolio/01.png",
+      "smallImage": "img/portfolio/01.png"
+    },
+    {
+      "title": "NUVIA",
+      "largeImage": "img/portfolio/02.png",
+      "smallImage": "img/portfolio/02.png"
+    },
+    {
+      "title": "NUVIA",
+      "largeImage": "img/portfolio/03.png",
+      "smallImage": "img/portfolio/03.png"
+    },
+    {
+      "title": "NUVIA",
+      "largeImage": "img/portfolio/04.png",
+      "smallImage": "img/portfolio/04.png"
+    },
+    {
+      "title": "NUVIA",
+      "largeImage": "img/portfolio/05.png",
+      "smallImage": "img/portfolio/05.png"
+    },
+    {
+      "title": "NUVIA",
+      "largeImage": "img/portfolio/06.png",
+      "smallImage": "img/portfolio/06.png"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-tint",
+      "name": "Cleansers",
+      "heading": "Gentle beginnings for glowing skin",
+      "details": "From gel to cream to foam, our pH-balanced, sulfate-free cleansers remove dirt without disrupting your skin barrier.",
+      "comment": "Best Seller: Nuvia Aloe pH Cleanser"
+    },
+    {
+      "icon": "fa fa-leaf",
+      "name": "Serums",
+      "heading": "Targeted solutions, visible results",
+      "details": "Potent yet soothing, our serums feature Niacinamide, Vitamin C, and Hyaluronic Acid for hydration, glow, and repair.",
+      "comment": "Customer Fave: Nuvia 10% Niacinamide Glow Shot"
+    },
+    {
+      "icon": "fa fa-heart",
+      "name": "Moisturizers",
+      "heading": "Hydration without heaviness",
+      "details": "Oily, dry, or combo — our moisturizers use humectants and botanicals to lock in hydration without clogging pores.",
+      "comment": "Top Pick: Rosehip & Ceramide Barrier Cream"
+    },
+    {
+      "icon": "fa fa-sun-o",
+      "name": "Sunscreens",
+      "heading": "Broad spectrum, zero white cast",
+      "details": "Mineral and hybrid SPF formulas that protect, hydrate, and blend seamlessly into every skin tone.",
+      "comment": "Editor’s Choice: Nuvia SunSilk SPF 50 PA++++"
+    },
+    {
+      "icon": "fa fa-moon-o",
+      "name": "Overnight Treatments",
+      "heading": "Wake up to better skin",
+      "details": "Our night masks and exfoliating peels work overnight to restore, renew, and rebalance your skin.",
+      "comment": "Hero Product: Retinol + Peptide Recovery Mask"
+    },
+    {
+      "icon": "fa fa-smile-o",
+      "name": "Body & Lip Care",
+      "heading": "Not just your face deserves love",
+      "details": "From buttery lip balms to body scrubs and serums, this range brings full-body glow and nourishment.",
+      "comment": "Fan Favorite: Mango Butter Lip Hydrator"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "Ever since I started using Nuvia’s Vitamin C serum, I’ve noticed a visible glow and even skin tone.",
+      "name": "Rohan Mehta"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "My skin has been super sensitive forever, but Nuvia’s cleanser and barrier cream are a godsend. Clean, calming, and no breakouts at all!",
+      "name": "Ananya Kandelwal"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "I love that Nuvia is transparent about ingredients. Their Retinol Night Mask is my holy grail — I wake up with baby-soft skin!",
+      "name": "Farida"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "I never cared much about skincare till I tried Nuvia. The products feel luxe yet affordable — and yes, I get compliments now!",
+      "name": "Aayush R."
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "The Mango Lip Balm is a pocket miracle. No more chapped lips, even in winter. And it smells so good.",
+      "name": "Jessy Joseph"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "Nuvia isn’t just skincare — it’s self-care. From the minimalist packaging to how each product feels on my skin, I’m in love!",
+      "name": "Meher A."
+    }
+  ],
+
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Keerthana P S",
+      "job": "Founder & CEO",
+      "description": "With a background in dermatology and a heart full of passion for clean beauty, Ananya started Nuvia to redefine skincare that’s inclusive, gentle, and effective. She’s the visionary behind our philosophy, “Glow like you mean it.”"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Freni Manoj",
+      "job": "Head of Product Innovation",
+      "description": "Freni is our ingredient guru. Whether it's sourcing botanical actives or formulating soothing serums, she ensures every product is as kind to your skin as it is to the planet."
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Ayush Gupta",
+      "job": "Brand & Community Manager",
+      "description": "From managing our social buzz to building real conversations with our customers, Ayush makes sure your voice is always heard and your skincare journey is supported."
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Dolly Mehta",
+      "job": "Creative Director",
+      "description": "Dolly is the visual soul of Nuvia. She leads all things design, from packaging to campaigns, bringing softness, minimalism, and beauty into every frame."
+    },
+    {
+      "img": "img/team/05.jpg",
+      "name": "Fathima Neslin",
+      "job": "Operations & Logistics Lead",
+      "description": "Behind every on-time, beautifully packed Nuvia order is Neslin. She keeps things moving, sustainably and smoothly, from the warehouse to your doorstep."
+    },
+    {
+      "img": "img/team/06.jpg",
+      "name": "Kaushiki Pandey",
+      "job": "Marketing & Growth Strategist",
+      "description": "Kaushiki makes sure Nuvia finds the right audience and grows with them. From campaign planning to influencer collaborations, she’s our strategy queen."
+    }
+  ],
+
+  "Contact": {
+    "address": "Nuvia HQ, Bengaluru, Karnataka, India ",
+    "phone": "+91-XXX-XXX-XXXX",
+    "email": "info@nuvia.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
