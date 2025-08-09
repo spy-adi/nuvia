@@ -40,7 +40,7 @@ const CareerDetail = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const FORMSPREE_URL = "https://formspree.io/f/mrblyozb";
+  const GETFORM_URL = "https://getform.io/f/bpjzmymb";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -48,27 +48,22 @@ const CareerDetail = () => {
     setError("");
 
     try {
-      const res = await fetch(FORMSPREE_URL, {
+      const formPayload = new FormData();
+      formPayload.append("name", formData.name);
+      formPayload.append("email", formData.email);
+      formPayload.append("linkedin", formData.linkedin);
+      formPayload.append("interest", formData.interest);
+      formPayload.append("resume", formData.resume); // file object
+      formPayload.append("motivation", formData.motivation);
+      formPayload.append("jobId", job.id);
+      formPayload.append("jobTitle", job.title);
+
+      const res = await fetch(GETFORM_URL, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          linkedin: formData.linkedin,
-          interest: formData.interest,
-          resume: formData.resume,
-          motivation: formData.motivation,
-          jobId: job.id,
-          jobTitle: job.title,
-        }),
+        body: formPayload,
       });
 
-      const result = await res.json();
-
-      if (result.ok || res.status === 200) {
+      if (res.ok) {
         setSubmitted(true);
         setFormData({
           name: "",
@@ -229,14 +224,18 @@ const CareerDetail = () => {
             </div>
 
             <div style={{ marginBottom: "15px" }}>
-              <label>Resume Link (e.g. Google Drive):</label>
+              <label>Upload Resume:</label>
               <br />
               <input
-                type="url"
+                type="file"
                 name="resume"
                 required
-                value={formData.resume}
-                onChange={handleChange}
+                onChange={(e) =>
+                  setFormData((prev) => ({
+                    ...prev,
+                    resume: e.target.files[0],
+                  }))
+                }
                 style={{ width: "100%", padding: "8px" }}
               />
             </div>
